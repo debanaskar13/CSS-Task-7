@@ -49,7 +49,7 @@ td{
 }
 td:hover{
     transition-property: all;
-    transition-duration: 120ms;
+    transition-duration: 400ms;
     transition-delay: 0ms;
     transform: scale(1.15);
     cursor: pointer;
@@ -61,6 +61,17 @@ td:hover{
 td img{
     width: 60px;
     height: 60px;
+}
+td img:hover{
+    animation: animation1 400ms linear;
+}
+@keyframes animation1{
+    0%{
+        transform: scale(1) ;
+    }
+    100%{
+        transform: scale(2) rotate(360deg);
+    }
 }
 .first td:nth-child(2n){
     background-color: rgba(7, 138, 46, 0.911);
@@ -234,3 +245,4 @@ tr:first-child>td:hover .rules,tr:nth-child(2)>td:hover .rules,tr:nth-child(7)>t
     left: 110px;
     top: -85px;
 }
+
