@@ -14,12 +14,13 @@ body{
 }
 .text{
     position: absolute;
-    left: 10%;
-    top: 20%;
+    left: 7%;
+    top: 12%;
     color: rgb(0, 255, 221);
     font-size: 60px;
     width: 10%;
     line-height: 2;
+    letter-spacing: 8px;
     text-transform: uppercase;
     text-align: center;
     font-family: 'Grenze Gotisch', cursive;
